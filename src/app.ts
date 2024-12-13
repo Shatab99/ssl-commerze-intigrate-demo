@@ -9,7 +9,7 @@ app.use(cors())
 
 
 app.get('/', (req, res) => {
-    res.send('Hello, this is bike riding sever!!')
+    res.send('<h1>Hello, this is Demon SSL server!!</h1>')
 })
 
 //Connecting global error handler 
